@@ -22,6 +22,7 @@ HTML-CSE-8/
 │
 ├── README.md
 ├── Practice/
-│   └── Sample.html
-│
+│   └── Exp1.html
+│   └── Exp2.html
+│   └──Exp3.html
 └── Future topics and class assignments
