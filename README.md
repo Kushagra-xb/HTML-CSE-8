@@ -1,28 +1,4 @@
-# HTML - CSE 8
+# HTML-CSE-8
 
-This repository contains my HTML programs, practice files, and assignments created during my Web Designing classes.
-
-## 👨‍💻 Student Information
-
-- **Name:** Kushagra Singh
-- **Branch:** Computer Science and Engineering
-- **Course:** Web Designing
-- **Repository:** HTML-CSE-8
-
-## 📚 Repository Purpose
-
-This repository is maintained to document my learning and practice in HTML. It includes programs and exercises created while learning fundamental web development concepts.
-
-
-
-## 📁 Repository Structure
-
-```text
-HTML-CSE-8/
-│
-├── README.md
-├── Practice/
-│   └── Exp1.html
-│   └── Exp2.html
-│   └──Exp3.html
-└── Future topics and class assignments
+Web Designing Workshop-1 assignments (HTML5). Each assignment is in its own folder as `index.html`.
+Open any `index.html` in a browser to see the output.
