@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 4 - Semantic and Non-Semantic Elements</title>
+</head>
+<body>
+  <!-- Semantic layout: the tags describe the meaning of each part of the page -->
+  <header>
+    <h1>College Portal</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">Courses</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Admission Open</h2>
+      <p>Apply before 30 June.</p>
+    </section>
+    <aside>
+      <p>Notice: Library closed Sunday.</p>
+    </aside>
+  </main>
+
+  <footer>
+    &copy; 2026 College
+  </footer>
+
+  <!--
+    Non-semantic (div) version of the same layout, for comparison:
+
+    <div id="header"><h1>College Portal</h1></div>
+    <div id="nav"><a href="#">Home</a> | <a href="#">Courses</a></div>
+    <div id="main">
+      <div id="section"><h2>Admission Open</h2><p>Apply before 30 June.</p></div>
+      <div id="aside"><p>Notice: Library closed Sunday.</p></div>
+    </div>
+    <div id="footer">&copy; 2026 College</div>
+
+    A div says nothing about its content; header, nav, main, section, aside and footer
+    do. Browsers, search engines and screen readers can use that meaning.
+  -->
+</body>
+</html>
